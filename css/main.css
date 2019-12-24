@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?psh5og');
+    src: url('../fonts/icomoon.eot?psh5og#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?psh5og') format('truetype'),
+        url('../fonts/icomoon.woff?psh5og') format('woff'),
+        url('../fonts/icomoon.svg?psh5og#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+    content: "\e986";
+}
+
+.icon-arrow:before {
+    content: "\ea3e";
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 180px;
+    height: 80px;
+    margin: 40px auto 0px auto ;
+    position: relative;
+}
+
+hr{
+    margin-top: 50px;
+    color: #a2a9b1;
+}
+
+header img {
+    position: absolute;
+    top: 136px;
+    width: 274px;
+    right: -48px;
+}
+
+header h1{
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: 2px;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+
+}
+
+header h4{
+   font-weight: 400;
+   font-size: 16px;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   margin: 0;
+}
+
+/* MAIN */
+
+.idiomas-container {
+    position: relative;
+    height: 25.5rem;
+    width: 36.6rem;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    position: absolute;
+    width: 15.6rem;
+}
+
+.idioma-1{
+    top: 0;
+    right: 60%;
+}
+
+.idioma-2{
+    top: 0;
+    left: 60%;
+}
+
+.idioma-3{
+    top: 20%;
+    right: 70%;
+}
+
+.idioma-4{
+    top: 20%;
+    left: 70%;
+}
+
+.idioma-5{
+    top: 40%;
+    right: 72%;
+}
+
+.idioma-6{
+    top: 40%;
+    left: 72%;
+}
+
+.idioma-7{
+    top: 60%;
+    right: 70%;
+}
+
+.idioma-8{
+    top: 60%;
+    left: 70%;
+}
+
+.idioma-9{
+    top: 80%;
+    right: 60%;
+}
+.idioma-10 {
+    top: 80%;
+    left: 60%;
+}
+
+main .container a{
+    text-decoration: none;
+    color: #36c;
+}
+
+main .container a strong{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+main .container a small {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #54595d;
+}
+
+/* Search section */
+
+.search-container{
+    display: flex;
+    max-width: 95%;
+    width: 540px;
+    margin: .4rem auto 1.95rem auto;
+    text-align: center;
+}
+
+.search-input{
+    display: flex;
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+    vertical-align: top;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.search-input input{
+    width: 85%;
+    height: 90%;
+    border: none;   
+    margin: 0 10px;
+}
+
+.lenguaje{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.lenguaje p{
+   color:rgb(84, 89, 93);
+   font-size: 12px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-button{   
+        padding: 10px;
+        height: 42px;
+        align-items: center;
+        display: flex;
+        margin: 0px -1px;
+        border: 1px solid #36c;
+        background-color:#36c;
+        width: 45px;
+        text-align: center;
+        justify-content: center;
+        font-size: 19px;
+        cursor: pointer;
+        border-radius: 0px 5px 5px 0px;
+}
+
+.search-button:hover{
+    background-color: #447ff5;
+}
+
+.icon-search{
+    color: white;
+}
+
+.icon-arrow{
+    color: rgb(84, 89, 93);
+    font-size: 12px;
+    font-family: Arial,
+    Helvetica,
+    sans-serif;
+}
+
+.search-input:hover{
+    border: 1.8px solid #36c;
+}
+
+.list-container{
+    margin: 50px auto 0 auto;
+    margin-top: 50px;
+    position: relative;
+    border: .1px solid #a2a9b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.list{
+    background-color: #f8f9fa;
+    display: inline;
+    padding: .64rem 1.28rem;
+    outline: 1.6rem solid #ffffff;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    color: #36c;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1;
+    cursor: pointer;
+    position: absolute;
+}
+
+footer{
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    margin: 0 200px;
+    width: 900px;
+    text-align: center;
+
+}
+
+footer p{
+    color: #54595d;
+}
+
+footer p span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: #54595d;
+    vertical-align: bottom;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #36c;
+}
